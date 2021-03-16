@@ -1,4 +1,5 @@
 data "google_compute_address" "vmip" {
+      // already created static ip
       name    = var.public_ip_name
       project = var.project_id
 }
